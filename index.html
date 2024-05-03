@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="robots" content="INDEX,FOLLOW">
+
+	<link rel="icon" href="http://www.beyondservice.org/favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="http://www.beyondservice.org/favicon.ico" type="image/x-icon">
+
+	<title>Beyond Service</title>
+
+	<link rel="stylesheet" type="text/css" media="all" href="css/home.css">
+
+</head>
+<body>
+<div class="container">
+	<ul id="menu">
+		<li id="about"><a href="about.html"></a></li>
+		<li id="preview"><a href="preview_english.pdf" target="_blank"></a></li>
+		<!--<li id="support"><a href="support.html"></a></li>-->
+		<li id="resources"><a href="resources.html"></a></li>
+		<li id="contact"><a href="contact.html"></a></li>
+        </ul>
+    <div id="main">
+		<ul>
+		    <li><img src="images/home_tree.jpg" alt="Tree"/></li>
+			<li><img src="images/logo-chinese.png" alt="奉献无涯"/></li>
+		    <li><img src="images/home_logo.jpg" alt="Beyond Service"/></li>
+		    <li><p>Inspiring Volunteering and Social Entrepreneurship</p></li>
+		</ul>
+    </div>
+
+    <div id="footer">
+    	<!-- Begin Footer Section -->
+        <ul>
+        	<!-- Begin Footer elements -->
+            <li><a class="addthis_button_preferred_1"></a></li>
+            <li><a class="addthis_button_preferred_2"></a></li>
+		    <li><a class="addthis_button_preferred_3"></a></li>
+            <li><p>Beyond Service &#169; <script type="text/javascript">document.write(new Date().getFullYear());</script>. All Rights Reserved</p></li>
+            <li><a class="addthis_button_google_plusone_share"></a></li>
+            <li><a class="addthis_button_compact"></a></li>
+            <li><a class="addthis_counter addthis_bubble_style"></a></li>
+            <!-- End Footer elements -->
+        </ul>
+
+		<div class="clear">&nbsp;</div>
+        <!-- End Footer Section -->
+    </div>
+</div>
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+    $('#main li').each(function(idx) {
+		$(this).delay( idx * 800 ).fadeIn( 800 );
+    });
+
+    $('#footer').hide().delay( 3000 ).fadeIn();
+});
+</script>
+<!-- AddThis Button BEGIN -->
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=xa-4e76d2322790659a"></script>
+<!-- AddThis Button END -->
+
+	<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-72127409-1', 'auto');
+ga('send', 'pageview');
+
+</script>
+
+</body>
+</html>
